@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --blackColor: #555454;
+  --cursiveFamily:'Great Vibes', cursive;
+  --textFamily: 'Lato', sans-serif;
+  --purpleColor:#be0bce;
+  --primaryColor: #f3b10a;
+  --backgroundColor: rgb(245, 245, 164);
+  --loraFamily: 'Lora', serif;
+  --nunitoFamily: 'Nunito', sans-serif;
+  --lightYellow: #d6a4262c;
+  --lightPurple: #be0bce17;
+  --lightBlack: #585858;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loading{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.loading::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid #dddddd;
+  border-top-color: var(--primaryColor);
+  border-bottom-color: var(--purpleColor);
+  border-radius: 50%;
+  animation: loading 1s linear infinite!important;
+}
+@keyframes loading {
+  to{
+      transform:rotate(1turn);
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.animatekey1{
+  animation-name: animation-1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+}
+@keyframes animation-1{
+    0% {
+        transform: translateY(0);
+    }
+    
+    100% {
+        transform: translateY(10px);
+    }
+}
+.elementor3{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  animation-name: animation-5;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+}
+@keyframes animation-5{
+  0% {
+      transform: scale(1);
+      margin-right: 0;
+  }
+
+  100% {
+      transform: scale(1);
+      margin-right: 100px;
+  }
+} 
+.pageButton{
+    background: var(--purpleColor);
+    padding: 10px 24px;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .4s ease-in-out;
+    font-family: var(--nunitoFamily);
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+.pageButton:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    background: #080d06;
+    color: #fff;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 4px;
+    transition: all .4s ease-in-out;
+}
+.pageButton:hover{
+  color: #fff;
+}
+.pageButton:hover.pageButton:after{
+   width: 100%;
+   color: #fff!important;
+}
+.pageSubtitle{
+  background: var(--lightPurple);
+  color: var(--purpleColor);
+  font-family: var(--nunitoFamily);
+  border-radius: 4px;
+  padding: 10px 10px;
+  font-weight: 600;
+}
+h1{
+  font-family: var(--loraFamily);
+  margin: 24px 0px;
+  font-size: 60px!important;
+  padding: 10px 0!important;
+  color: #000;
+}
+.pageTitle{
+  font-size: 40px!important;
+}
+@media screen and (max-width: 450px) {
+  h1{
+    font-size: xx-large!important;
+  }
+  .pageTitle{
+    font-size: xx-large!important;
+  }
+}
+.employer-banner{
+  background: linear-gradient(to left, rgba(85, 84, 84, 0.759), rgba(0, 0, 0, 0.993)), url('./image/connectImage.png');
+  background-position: center;
+  background-size: cover;
+  padding: 40px 0px;
+  margin-top: 30px;
+}
+.employer-banner .wrapper{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 850px) {
+  .employer-banner .wrapper{
+    flex-direction: column;
+  }
+}
+.employer-banner .wrapper .content{
+  flex: 1;
+}
+.employer-banner .wrapper .text{
+  color: #fff;
+  font-family: var(--nunitoFamily);
+  padding-top: 20px;
+  font-size: 16px;
+  width: 100%!important;
+  text-align: left!important;
+}
+.employer-banner .wrapper .booking{
+  flex: 1;
+}
+.employer-banner .pageTitle{
+  color: #fff;
+  width: 100%!important;
+  text-align: left!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.employer-banner .booking{
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.employer-banner .booking .pageButton2{
+  background: #fff;
+  color: var(--purpleColor)
+}
+
+/* @media screen and (max-width: 450px) {
+  .title{
+    font-size: xx-large!important;
   }
-  to {
-    transform: rotate(360deg);
-  }
+} */
+.pageLoader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+   
+}
+.pageLoader  .spinner-border{
+      color: var(--blackColor)
+}
+.pageError{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 17px;
+    font-family: var(--textFamily);
+    color: red;
+}
+.pageNoData{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 17px;
+    font-family: var(--textFamily);
+    color: var(--blackColor)
 }

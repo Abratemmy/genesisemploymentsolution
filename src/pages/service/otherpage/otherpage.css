@@ -1,0 +1,21 @@
+.otherpagebg{
+    padding: 50px 0px;
+}
+.otherpagebg .other-title{
+    color:#fff;
+    font-size: 60px;
+    font-family: var(--textfamily);
+    font-weight: 600;
+}
+.otherdropdown{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:800px){
+    .otherpagebg .other-title{
+        color:#fff;
+        font-size: 45px;
+        font-family: var(--textfamily);
+        font-weight: 600;
+    }
+}

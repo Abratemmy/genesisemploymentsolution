@@ -1,0 +1,26 @@
+.EmployeeContainer{
+    position: relative;
+    width: 100%;
+    padding: 60px 0px 0px;
+    .pageSubtitle{
+        margin: 0 auto;
+    }
+    .pageTitle{
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .ptext{
+        width: 70%;
+        margin: 0 auto;
+        font-family: var(--nunitoFamily);
+        color: var(--lightBlack);
+        padding: 10px 0px;
+        text-align: center;
+    }
+    @media screen and (max-width: 850px ) {
+        .pageTitle, .pageSubtitle{
+            width: 90%;
+        }
+    }
+}

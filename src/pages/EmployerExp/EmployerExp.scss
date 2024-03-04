@@ -1,0 +1,182 @@
+.newEmployerContainer{
+    width: 100%;
+    position: relative;
+    padding: 50px 0px 0px;
+    .pageSubtitle{
+        margin: 0 auto;
+    }
+    .pageTitle{
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .text{
+        width: 70%;
+        margin: 0 auto;
+        font-family: var(--nunitoFamily);
+        color: var(--lightBlack);
+        padding: 10px 0px;
+        text-align: center;
+    }
+    @media screen and (max-width: 850px ) {
+        .pageTitle, .pageSubtitle{
+            width: 90%;
+        }
+    }
+    .contentWrapper{
+        background: var(--lightYellow);
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+        height: 320px;
+        transform: scale(1);
+        transition: 0.4s all ease;
+        .left{
+            flex: 1;
+            .title{
+                font-family: var(--loraFamily);
+                font-size: 17px;
+                padding-bottom: 10px;
+            }
+            .c-text{
+                font-family: var(--nunitoFamily);
+                color: var(--lightBlack);
+                padding: 10px 0px;
+                text-align: left;
+            }
+
+        }
+        .right{
+            flex: 1;
+            img{
+                width: 100%;
+                border-top-right-radius: 50%;
+                border-top-left-radius: 50%;
+            }
+        }
+    }
+    .contentWrapper:hover{
+        transform: scale(0.98);
+        opacity: 0.8;
+    }
+    @media screen and (max-width: 990px) {
+        .contentWrapper{
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .contentWrapper{
+            flex-direction: column-reverse;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            .title, .c-text{
+                text-align: center;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+// .employerexp-bg{
+//     background: linear-gradient(180deg, rgba(214, 127, 231, 0.445), rgba(207, 120, 241, 0.733)),url("../../image/emploerExp.jpg");
+//     height: 350px;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     position: relative;
+//     background-position: 50%;
+//     padding: 60px 0px;
+//     font-family: var(--textFamily);
+//     color: #fff;
+// }
+// .employerexp-bg h1{
+//     font-weight: 600;
+//     font-size: 50px;
+//     letter-spacing: 1px;
+// }
+// .employerexp-bg .header{
+//     padding: 40px 0px 20px 0px;
+//     font-size: 28px;
+//     font-family: var(--textFamily);
+//     font-weight: 600
+// }
+// .employerexp-bg p{
+//     font-size: 18px;
+//     font-weight:550
+// }
+// .emploerexp .content{
+//     padding: 50px 0px;
+// }
+// .emploerexp .content h1{
+//     text-align: center;
+//     color: var(--blackColor);
+//     font-weight: 600;
+//     padding-bottom: 20px;
+// }
+// .emploerexp .row{
+//     padding: 30px 0px 5px 0px
+// }
+// .emploerexp img{
+//     width: 85%;
+//     border-radius: 20px;
+//     opacity: 1;
+//     transition: 0.4s all ease
+// }
+// .emploerexp img:hover{
+//     transform: scale(1.04);
+//     opacity: 0.7;
+// }
+// .emploerexp h2{
+//     font-family: var(--textFamily);
+//     color: var(--primaryColor);
+//     font-weight: 550;
+//     padding-bottom: 20px;
+// }
+// .emploerexp .content p{
+//     text-align: justify;
+//     line-height: 34px;
+//     font-family: var(--textFamily);
+//     color:var(--blackColor);
+//     font-size: 18px;
+// }
+// .employer-form{
+//     background:linear-gradient(180deg, rgba(215, 84, 241, 0.911), rgba(194, 79, 240, 0.945)),url("../../image/aboutsection.png");
+//     width:100%;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center center;
+//     position: relative;
+//     text-align: center;
+//     font-family: var(--textFamily);
+//     color: #fff;
+//     padding: 20px 0px 20px 0px;
+// }
+// .employer-form h1{
+//     font-size: 35px;
+//     font-weight: 600
+// }
+
+
+/* employer form starts here */
+.Employerform{
+    position: absolute;
+    top: 110px;
+    background:linear-gradient(180deg, rgb(215, 84, 241), rgba(194, 79, 240, 0.945));
+   
+    width: 100%;
+    padding: 50px 0px;
+    font-family: var(--textFamily);
+    color: #fff;
+}
+.Employerform h1{
+    font-weight: 600;
+    font-size: 50px;
+}

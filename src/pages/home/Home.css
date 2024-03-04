@@ -1,0 +1,589 @@
+.home-banner {
+    background: linear-gradient(180deg, rgba(204, 83, 194, 0.514), rgba(15, 15, 15, 0.274)), url("../../image/canadaimg.jpg");
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-banner-content {
+    text-align: left;
+    font-family: var(--textFamily);
+    padding-top: 90px;
+}
+
+.home-banner-content h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.home-banner-content h1 {
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+.home-banner-content h1 span {
+    color: var(--primaryColor)
+}
+
+.home-banner-content p {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 550
+}
+
+.home-banner-content p .typical {
+    font-weight: 550;
+
+}
+
+.home-content {
+    padding: 60px 0px 50px 0px;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 30px;
+    font-family: var(--textFamily);
+    color: var(--blackColor);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    word-spacing: 4px;
+
+}
+
+.home-col {
+    line-height: 30px;
+    font-family: var(--textFamily);
+    font-size: 16px;
+    color: var(--blackColor);
+    padding: 20px;
+}
+
+.home-services {
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* another section starts here */
+.whowearepage {
+    width: 100%;
+    background: var(--purpleColor);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.whoweare {
+    width: 100%;
+    background: var(--primaryColor);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    text-align: right;
+    padding: 50px 0px;
+    color: #fff;
+    font-family: var(--textFamily);
+}
+
+.whoweare h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.whoweare p,
+.whyweareright p {
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.whoweare .findout {
+    text-align: center !important;
+    float: right;
+    margin-top: 20px;
+}
+
+.whoweare .nav {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 5px 50px;
+    background: transparent;
+    transition: 0.4s all ease;
+}
+
+.whoweare .nav:hover {
+    background: var(--purpleColor);
+    color: #fff;
+    border: 2px solid var(--purpleColor)
+}
+
+.whyweareright {
+    width: 100%;
+    padding: 50px 0px;
+    font-family: var(--textFamily);
+}
+
+.whyweareright h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.whyweareright p {
+    color: #fff;
+}
+
+.whyweareright-nav {
+    padding-top: 20px;
+}
+
+.whyweareright .nav {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 5px 20px;
+    background: transparent;
+    transition: 0.4s all ease;
+    text-align: center;
+    justify-content: center;
+}
+
+.whyweareright .nav:hover {
+    background: var(--primaryColor);
+    color: #fff;
+    border: 2px solid var(--primaryColor);
+}
+
+/* end of the section */
+.home-services {
+    padding: 60px 0px 30px 0px;
+}
+
+.home-services .content-slider {
+    padding: 0px 30px;
+}
+
+.content-slider:hover img {
+    transform: scale(1.06);
+    opacity: 0.7
+}
+
+.home-services .image-slider {
+    background: var(--purpleColor);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home-services .image-slider1 {
+    background: var(--primaryColor);
+}
+
+.image-slider1 h1 {
+    color: var(--purpleColor) !important;
+}
+
+.home-services .image-slider img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    transition: 0.4s all ease
+}
+
+.image-slider h1 {
+    font-size: 40px;
+    color: var(--primaryColor);
+    font-family: var(--textFamily);
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.content-slider p {
+    font-size: 17px;
+    font-family: var(--textFamily);
+    line-height: 28px;
+    color: var(--blackColor);
+    padding-top: 10px;
+}
+
+.homeservice-icon button {
+    border: none;
+    margin: 0px 20px;
+    background: none;
+}
+
+.homeservice-icon .react-icon {
+    font-size: 30px;
+    background: var(--purpleColor);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.homeservice-icon .react-icon1 {
+    color: var(--primaryColor)
+}
+
+/* home service starts here */
+.home-testimony {
+    background: linear-gradient(180deg, rgba(155, 55, 175, 0.445), rgba(128, 56, 156, 0.685)), url("../../image/employment.jpg");
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px 0px 0px 0px;
+}
+
+.firsttestimony-section {
+    background: var(--primaryColor);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 50px 0px;
+}
+
+.firsttestimony-content {
+    text-align: center;
+    padding: 0px 0px 30px 0px
+}
+
+.firsttestimony-icon {
+    color: #fff;
+    font-size: 70px
+}
+
+.firsttestimony-content p {
+    font-size: 22px;
+    color: #fff;
+    font-family: var(--textFamily);
+    padding-top: 10px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.firsttestimony-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: var(--textFamily);
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 5px 40px;
+    border-radius: 50px;
+    transition: 0.4s all ease;
+}
+
+.firsttestimony-content a:hover {
+    background: var(--purpleColor);
+    color: #fff;
+}
+
+.home-testimony-content h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: var(--textFamily);
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+/* .home-slider{
+    position: relative;
+    border-radius: 15px;
+    display: flex!important;
+    position: relative;
+}
+.testimony-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.testimony-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--primaryColor);
+    z-index:20!important;
+   
+}*/
+
+.home-slider {
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.testimony-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony-img img {
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    z-index: 20;
+}
+
+.testimony-content {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    top: -80px;
+    padding: 100px 10px 20px 10px;
+    box-shadow: rgba(139, 1, 98, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    height: auto;
+    font-family: var(--textFamily);
+    color: var(--blackColor);
+    transition: 0.4s all ease;
+}
+
+.testimony-text {
+    font-size: 16px;
+    font-weight: 550;
+    text-align: justify;
+    color: var(--blackColor);
+    padding-bottom: 20px;
+}
+
+.testimony-name {
+    color: var(--primaryColor);
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .home-banner {
+        background: linear-gradient(180deg, rgba(204, 83, 194, 0.514), rgba(15, 15, 15, 0.274)), url("../../image/canadaimg.jpg");
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .home-banner-content {
+        padding-top: 50px;
+    }
+
+    .home-banner-content h3 {
+        font-size: 30px;
+    }
+
+    .home-banner-content h1 {
+        color: #fff;
+        font-weight: 900;
+        padding-bottom: 20px;
+        font-size: 45px;
+    }
+
+    .whoweare h1,
+    .whyweareright h1 {
+        font-size: 45px;
+    }
+
+    .home-services .image-slider img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .image-slider h1 {
+        font-size: 30px;
+        color: var(--primaryColor);
+        font-family: var(--textFamily);
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    .home-testimony-content h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+        font-family: var(--textFamily);
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .home-banner {
+        background: linear-gradient(180deg, rgba(204, 83, 194, 0.514), rgba(15, 15, 15, 0.274)), url("../../image/canadaimg.jpg");
+        width: 100%;
+        height: 350;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .home-banner-content {
+        padding-top: 35px;
+
+    }
+
+    .home-banner-content h3 {
+        font-size: 26px;
+    }
+
+    .home-banner-content h1 {
+        color: #fff;
+        font-weight: 900;
+        padding-bottom: 20px;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .home-banner-content p {
+        font-size: 19px;
+        color: #fff;
+        font-weight: 550
+    }
+}
+
+/* testimonies session */
+.testimony-session {
+    display: flex;
+    gap: 1em;
+    padding: 3rem 0px 5rem 0px;
+    position: relative;
+    font-family: var(--textFamily);
+}
+
+.testimony-session .left-t {
+    display: flex;
+    flex: 1 1;
+    gap: 10px;
+    flex-direction: column;
+    color: #fff;
+}
+
+.testimony-session .left-t>:nth-child(1) {
+    color: var(--primaryColor);
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.testimony-session .left-t>:nth-child(2) {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.testimony-session .left-t>:nth-child(3) {
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    line-height: 27px;
+    text-align: justify;
+    padding: 10px 0px
+}
+
+.testimony-session .right-t {
+    flex: 1 1;
+    position: relative;
+}
+
+.testimony-session .right-t>img {
+    position: absolute;
+    width: 15rem;
+    height: 18rem;
+    object-fit: cover;
+    right: 5rem;
+    top: 1rem;
+    border: 0
+}
+
+.testimony-session .right-t>:nth-child(1) {
+    position: absolute;
+    width: 15rem;
+    height: 18rem;
+    border: 2px solid var(--primaryColor);
+    background-color: transparent;
+    right: 6rem;
+    top: 0.2rem;
+}
+
+.testimony-session .right-t>:nth-child(2) {
+    position: absolute;
+    width: 15rem;
+    height: 18rem;
+    background: var(--primaryColor);
+    top: 2rem;
+    right: 4rem;
+}
+
+.testimony-page .arrows {
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    justify-content: center;
+    color: var(--primaryColor);
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .testimony-session {
+        flex-direction: column;
+    }
+
+    .testimony-session .left-t>:nth-child(1) {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .testimony-session .left-t>:nth-child(2) {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .testimony-session .left-t>:nth-child(3) {
+        text-align: center;
+    }
+
+    .testimony-session .left-t>:nth-child(4) {
+        text-align: center !important;
+    }
+
+    .testimony-session .right-t {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .testimony-session .right-t>div {
+        display: none;
+    }
+
+    .testimony-session .right-t>img {
+        top: 0;
+        right: 0;
+        position: relative;
+        align-self: center;
+        border: 4mm ridge #f3b10a;
+    }
+
+    .testimony-session .right-t>:last-child {
+        display: flex;
+        bottom: 0;
+        left: 0;
+        gap: 4rem
+    }
+
+}

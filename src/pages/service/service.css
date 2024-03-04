@@ -1,0 +1,207 @@
+.back{
+    background:linear-gradient(180deg, rgba(139, 106, 146, 0.555), rgba(139, 84, 160, 0.479)), url("../../image/resumebg.jpg");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.linkedin-bg{
+    background:linear-gradient(180deg, rgba(139, 106, 146, 0.555), rgba(139, 84, 160, 0.479)),url("../../image/linkedinbg.jpg");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.employment-bg{
+    background:linear-gradient(180deg, rgba(139, 106, 146, 0.555), rgba(139, 84, 160, 0.479)),url("../../image/employmenttt.jpg");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.career-bg{
+    background:linear-gradient(180deg, rgba(103, 98, 104, 0.918), rgba(40, 38, 41, 0.849)),url("../../image/career.jpg");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 30px;
+    height:270px;
+    position: relative;
+}
+.internship-bg{
+    background:linear-gradient(180deg, rgba(139, 106, 146, 0.555), rgba(139, 84, 160, 0.479)),url("../../image/internshipimg.jpg");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.mentorship-bg{
+    background:linear-gradient(180deg, rgba(139, 106, 146, 0.555), rgba(139, 84, 160, 0.479)),url("../../image/mentorship.jpg");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.training-bg{
+    background:linear-gradient(180deg, rgba(139, 106, 146, 0.555), rgba(139, 84, 160, 0.479)),url("../../image/trainingimg.jpg");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.otherbackground{
+    margin: 40px 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.555), rgba(139, 84, 160, 0.479));
+    width: 100%;
+    padding: 40px 0px;
+    position: relative;
+}
+.innerbackground{
+    width: 100%;
+    position: relative;
+}
+.service-img{
+    margin-left: 300px;
+    width: 70%;
+}
+.service-img img{
+    width: 840px;
+    position: relative;
+    height: 700px;
+}
+.service-content{
+    background: #fff;
+    padding: 50px 20px;
+    width: 50%;
+    z-index:20;
+    position: absolute;
+    top: 70px;     
+}
+.service-content p{
+    font-family: var(--textFamily);
+    color: var(--blackColor);
+    font-size: 18px;
+    text-align: justify;
+}
+.service-content p li{
+    padding: 7px 0px;
+}
+.booknow{
+    margin-top: 40px;
+}
+.booknow-nav{
+    text-decoration: none;
+    background:var(--primaryColor);
+    padding: 20px;
+    color:#fff;
+    font-size: 20px;
+    font-family: var(--textFamily);
+    opacity:1;
+    transition: 0.4s all ease;
+}
+.booknow-nav:hover{
+    opacity: 0.8;
+    color:#fff;
+}
+.service-line{
+    border-top: 4px solid var(--primaryColor);
+    margin-top: 50px;
+}
+.service-lastsection{
+    padding: 40px 0px 40px 0px;
+}
+.service-lastsection p{
+    text-transform: uppercase;
+    font-size:17px;
+    font-family: var(--textFamily);
+    color: var(--blackColor);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.service-lastsection h2{
+    color: var(--blackColor);
+    font-family: var(--textFamily);
+
+}
+.service-lastsection li{
+    font-family: var(--textFamily);
+    color:var(--blackColor);
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.career-bg h1{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color: #fff;
+    font-weight: 600;
+    font-size: 50px;
+}
+.jobsearch{
+    font-family: var(--textFamily);
+    font-size: 18px;
+    color: var(--blackColor);
+    font-weight: 600
+}
+.jobsearch-link{
+    padding-top: 10px
+}
+.jobsearch a{
+    text-decoration: none;
+    color: var(--purpleColor);
+    font-weight: 550;
+    transition: 0.4s all ease;
+}
+.jobsearch a:hover{
+    color: var(--primaryColor)
+}
+.jobsearch a:not(:first-child){
+    padding-left: 30px;
+}
+@media screen and (max-width: 900px){
+    .innerbackground{
+        width: 100%; 
+    }
+    .service-img{
+        margin-left: 0px;
+        width: 100%;
+        display: none;
+    }
+    .service-img img{
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    .service-content{
+        background: #fff;
+        padding: 50px 20px;
+        width: 100%;
+        z-index:20;
+        top: 0px;  
+        position: relative; 
+    }
+    
+    .otherbackground{
+        margin: 20px 0px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.555), rgba(139, 84, 160, 0.479));
+        width: 100%;
+        padding: 10px 0px;
+        position: relative;
+    }
+}

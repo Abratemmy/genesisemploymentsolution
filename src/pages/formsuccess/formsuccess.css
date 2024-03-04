@@ -1,0 +1,23 @@
+.formsuccess{
+    position: absolute;
+    top: 0;
+    background:linear-gradient(180deg, rgb(215, 84, 241), rgba(194, 79, 240, 0.945));
+    height: 100%;
+    width: 100%;
+    padding: 50px 0px;
+    font-family: var(--textFamily);
+    color: #fff;
+    z-index:999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-sucess-text{
+    text-align: center;
+    font-family: var(--textFamily);
+    font-size: 25px;
+}
+.formsuccess .booknow{
+    text-align: center;
+}

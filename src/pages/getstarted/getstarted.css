@@ -1,0 +1,124 @@
+.getstarted-banner{
+    background: linear-gradient(180deg, rgba(204, 83, 194, 0.514), rgba(15, 15, 15, 0.274)),url("../../image/canadaimg.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.getstarted-banner h1{
+    position: absolute;
+    top:40%;
+    left:45%;
+    transform:translate(-40%, -40%);
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--textFamily);
+    color:#fff;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+.get-section{
+    padding: 50px 0px;
+    text-align: center;
+    font-family: var(--textFamily);
+    color: var(--blackColor);
+}
+.get-section p{
+    padding: 5px 0px;
+    font-size: 20px
+}
+.getp{
+    padding-bottom: 20px!important;
+}
+.get-column{
+    padding: 20px 0px;
+}
+.get-column p{
+    font-size:20px;
+    font-weight:600;
+}
+.get-column h6{
+    padding: 0px 8px;
+    text-align: center;
+    font-size:17px;
+    line-height:28px;
+}
+.get-form-content{
+    background: linear-gradient(180deg, rgba(204, 83, 194, 0.514), rgba(15, 15, 15, 0.767));
+    padding: 70px 0px;
+    font-family: var(--textFamily);
+    color:#fff;
+}
+.get-form-content .text{
+    font-size:20px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.error{
+    font-size:15px;
+    text-align: justify;
+    padding-bottom: 5px;
+    color: crimson;
+    font-style: italic;
+}
+.get-form-content h3{
+    font-size:25px;
+    font-weight: 600;
+}
+.get-form-content h6{
+    color: #fffb1e;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.contact-form-radio label, .contact-form-radio .label{
+    display: inline-block;
+    padding-bottom: 10px;
+    font-weight:550;
+    padding-left: 5px;
+}
+.contact-form-radio p{
+    padding-bottom: 0px;
+    font-weight: 600
+}
+.contact-form .label{
+    font-size: 18px;
+    font-family: var(--textFamily);
+    font-weight: 600;
+}
+@media screen and (max-width:700px){
+    .getstarted-banner{
+        background: linear-gradient(180deg, rgba(204, 83, 194, 0.514), rgba(15, 15, 15, 0.274)),url("../../image/canadaimg.jpg");
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .getstarted-banner h1{
+        position: relative;
+        top:25%;
+        left:0%;
+        transform:translate(-0%, -0%);
+        text-align: center;
+        font-size: 35px;
+        font-family: var(--textFamily);
+        color:#fff;
+        font-weight:600;
+        letter-spacing: 1px;
+        line-height:45px;
+    }
+    .get-column{
+        padding: 10px 0px;
+    }
+    .get-column p{
+        font-size:18px;
+        font-weight:600;
+    }
+    .get-column h6{
+        padding: 0px 8px;
+        text-align: center;
+        font-size:17px;
+        line-height:28px;
+    }
+}

@@ -1,0 +1,29 @@
+.otherPagesComponent{
+    background: var(--lightYellow);
+    padding:  160px 0px 0px;
+    position: relative;
+    .contentWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            color: var(--lightBlack);
+            text-transform: capitalize;
+        }
+        .content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: var(--lightBlack);
+            font-family: var(--nunitoFamily);
+            font-size: 20px;
+            .home{
+                text-decoration: none;
+                color: var(--lightBlack);
+                font-size: 20px;
+            }
+        }
+    }
+}

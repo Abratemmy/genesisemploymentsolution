@@ -1,0 +1,206 @@
+.newAboutSession{
+    width: 100%;
+    padding: 60px 0px 40px;
+    .image{
+        padding-bottom: 30px;
+        img{
+            width: 100%;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+        }
+    }
+    .contentWrapper{
+        .pageSubtitle{
+            width: fit-content
+        }
+        .text{
+            font-family: var(--nunitoFamily);
+            color: var(--lightBlack);
+            font-size: 16px;
+            padding-bottom: 20px;
+        }
+        .vision{
+            display: flex;
+            gap: 15px;
+            background: var(--lightYellow);
+            padding: 10px;
+            margin-bottom: 20px;
+            transform: scale(1);
+            transition: 0.4s all ease;
+            span{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .icon{
+                    color: var(--lightBlack);
+                    font-size: 25px;
+                }
+            }
+            .content{
+                .title{
+                    font-family: var(--nunitoFamily);
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+                
+        }
+        .vision:hover{
+            transform: scale(0.98);
+        }
+    }
+}
+
+.BenefitSession{
+    width: 100%;
+    padding: 20px 0px 50px;
+    text-align: center;
+    position: relative;
+    img{
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    .pageSubtitle{
+        margin: 0 auto;
+    }
+    .sectionabout{
+        padding: 20px 0px;
+        background: var(--lightPurple);
+        padding: 20px;
+        text-align: center;
+        font-family: var(--nunitoFamily);
+        color:var(----lightBlack);
+        min-height: 200px!important;
+        font-size: 15px;
+        margin-bottom: 10px;
+        h4{
+            font-size: 18px;
+            padding-bottom: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
+
+.aboutbg{
+    background:linear-gradient(180deg, rgba(214, 127, 231, 0.445), rgba(207, 120, 241, 0.685)),url("../../image/aboutbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    padding: 60px 0px;
+    font-family: var(--textFamily);
+    color: #fff;
+}
+.aboutbg h1{
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.aboutbg p{
+    max-width: 1000px;
+    font-size: 20px;
+    font-weight:550;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+.aboutvisiondiv{
+    padding: 10px 0px;
+    font-size: 18px
+}
+.aboutvisiondiv span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 5px;
+}
+.about-section{
+    padding: 50px 0px
+}
+.about-section h1{
+    text-align: center;
+    font-size: 40px;
+    color: var(--blackColor);
+    letter-spacing: 0.7px;
+    padding-bottom: 40px;
+    font-family: var(--textFamily);
+}
+
+.sectionabout p{
+    line-height: 30px;
+    font-size:18px;
+}
+.anothersection{
+    background:linear-gradient(180deg, rgba(215, 84, 241, 0.911), rgba(194, 79, 240, 0.945)),url("../../image/aboutsection.png");
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.storyfaq{
+    padding: 60px 0px
+}
+.storyfaq h1{
+    color: var(--primaryColor)!important;
+    font-weight: 600;
+    font-family: var(--textFamily);
+}
+.storyfaq p{
+    color:#fff;
+    font-size: 18px;
+    font-family: var(--textFamily);
+    padding: 20px 0px;
+}
+.mainfaq{
+    padding: 60px 0px 30px 0px;
+}
+@media screen and (max-width:800px){
+    .aboutbg h1{
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 700px){
+    .mainfaq{
+        padding: 5px 0px 30px 0px;
+    }
+    .storyfaq{
+        padding: 60px 0px 5px 0px;
+    }
+    .about-section h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .aboutbg p{
+        max-width: auto;
+        font-size: 17px;
+        text-align: justify;
+    }
+    .aboutvisiondiv{
+        padding: 10px 0px;
+        font-size: 17px
+    }
+    .aboutvisiondiv span{
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-right: 5px;
+    }
+    .sectionabout h4{
+        font-size: 19px;
+       
+    }
+    .sectionabout p{
+        line-height: 30px;
+        font-size:17px;
+    }
+}

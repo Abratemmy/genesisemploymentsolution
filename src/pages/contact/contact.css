@@ -1,0 +1,184 @@
+.newContactSection{
+    position: relative;
+    width: 100%;
+    padding: 70px 0px 0px;
+}
+.newContactSection .pageSubtitle{
+    width: fit-content;
+}
+.newContactSection .text{
+    font-family: var(--nunitoFamily);
+    color: var(--lightBlack);
+    font-size: 16px;
+}
+.newContactSection .contactWrapper{
+    padding: 30px 0px;
+}
+.newContactSection .contactWrapper .content{
+    padding: 10px;
+    background: var(--lightYellow);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+.newContactSection .contactWrapper span{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newContactSection .contactWrapper span .icon{
+    font-size:23px;
+    color: var(--lightBlack);
+}
+.newContactSection .contactWrapper p{
+    margin-bottom: 5px;
+}
+.newContactSection .contactWrapper a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    font-family: var(--nunitoFamily);
+    font-size: 16px;
+    transition: 0.4s all ease;
+}
+.newContactSection .contactWrapper a:hover{
+    color: var(--lightBlack)
+}
+
+
+.contact-formdetails{
+    background: linear-gradient(180deg, rgba(207, 161, 216, 0.445), rgba(225, 161, 250, 0.685)), url("../../image/contactbg.webp")center center/ cover no-repeat;
+    width:100%;
+    padding: 20px!important;
+    margin: 20px 0px;
+}
+.submitError{
+    background: rgba(185, 21, 21, 0.26);
+    padding: 10px 20px;
+    font-family: var(--nunitoFamily);
+    margin: 10px 0px 20px;
+}
+.submitError .text{
+    font-size: 16px;
+    color: red!important;
+}
+.successMessage{
+    background: rgba(59, 185, 21, 0.26);
+    padding: 10px 20px;
+    font-family: var(--nunitoFamily);
+    margin: 10px 0px 20px;
+}
+.successMessage .text{
+    font-size: 16px;
+    color: rgb(60, 255, 0)!important;
+}
+/* 
+.contactpage h1{
+    font-size: 50px;
+    font-weight: 600;
+    color:#fff;
+} */
+/* .contact-details .getintouch{
+    background: #fff;
+    width: 60%;
+    margin-top: 40px;
+}
+.contact-details .title{
+    color:#fff;
+    background: var(--primaryColor);
+    padding: 10px 0px 10px 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.contact-details .link{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--blackColor);
+    font-size:18px;
+    transition: 0.4s all ease;
+}
+.contact-details .link:hover{
+    color: var(--purpleColor)
+} */
+
+.contact-form{
+    padding-bottom: 25px;
+}
+.contact-form label{
+    display: block;
+    color:#fff;
+    font-size: 16px;
+    font-family: var(--nunitoFamily);
+    font-weight: 600;
+}
+/* .contact-form label span{
+    color: red;
+} */
+.contact-form .inputfield{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border:none;
+    background: #fff;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-family: var(--nunitoFamily);
+    font-size: 15px;
+}
+.contact-form .inputfield:focus, .contact-form .textarea:focus{
+    border: 2px solid var(--blackColor);
+}
+.contact-form .textarea{
+    width: 100%;
+    outline: none;
+    border:none;
+    background: #fff;
+    padding-left: 8px;
+    border-radius: 5px;
+    font-family: var(--nunitoFamily);
+    font-size: 15px;
+}
+/* .submitButton{
+    padding: 20px 30px;
+    background: var(--primaryColor);
+    color:#fff;
+    font-size: 20px;
+    border: none;
+    transition: 0.4s all ease;
+}
+.submitButton:hover{
+    background: #dba929;
+} */
+/* 
+@media screen and (max-width:800px){
+    .contactpage h1{
+        font-size: 40px;
+        font-weight: 600;
+        color:#fff;
+    }
+} */
+
+/* @media screen and (max-width:700px){
+    .contact-details{
+        color:#fff;
+        font-family: var(--textFamily);
+        margin-bottom: 30px;
+    }
+    .contact-details .getintouch{
+        background: #fff;
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .contact-form label{
+        font-size: 17px;
+
+    }
+  
+} */
