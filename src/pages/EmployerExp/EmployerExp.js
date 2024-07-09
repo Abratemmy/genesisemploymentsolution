@@ -19,7 +19,7 @@ function EmployerExp() {
             <div className='newEmployerContainer'>
                 <div className='container'>
                     <div className='pageSubtitle' data-aos="fade-in" style={{ width: 'fit-content' }}>Employer's Benefit</div>
-                    <h1 className='pageTitle' data-aos="fade-in">GES help employer build a world where opportunity is truly & evenly distributed</h1>
+                    <h1 className='pageTitle' data-aos="fade-in">GES helps employers by providing expertise, efficiency, and strategic support in managing their human resources effectively.</h1>
                     <div className='text'>
                         We help recruiters create virtual experience programs to train and look for the best candidates to hire.
                     </div>

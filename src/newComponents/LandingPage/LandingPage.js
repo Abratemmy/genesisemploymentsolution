@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './LandingPage.scss';
 import ball from '../../image/ball.png';
 import pattern1 from '../../image/pattern1.png'
@@ -19,8 +19,14 @@ import EmployeeComponent from '../../components/EmployeeComponent/EmployeeCompon
 import CalendlyBooking from '../../components/CalendlyBooking/CalendlyBooking';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import WebinarRegister from '../WebinarRegister/WebinarRegister';
 
 function LandingPage() {
+    const [openWebinar, setopenWebinar] = useState(false);
+
+    const webinarToggle = () => {
+        setopenWebinar(true)
+    }
     useEffect(() => {
         AOS.init({
             duration: 1500
@@ -56,6 +62,10 @@ function LandingPage() {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div className='adviceDiv animate__animated animate__fadeInLeft' style={{ paddingTop: '20px' }}>
+                                    <button className='pageButton' onClick={webinarToggle}>Register for our Resume Writing Webinar Event</button>
+                                </div>
                             </div>
                         </div>
                         <div className='col-lg-6'>
@@ -71,6 +81,11 @@ function LandingPage() {
                     <img src={ball} alt="" className='elementor3' width='30px' />
                 </div>
             </div>
+            {openWebinar && (
+                <WebinarRegister
+                    closeToggle={setopenWebinar}
+                />
+            )}
 
             {/* landingAbout */}
             <div className='LandingAbout'>

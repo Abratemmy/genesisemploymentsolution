@@ -30,9 +30,10 @@ function Ourstory() {
                 <div className='pageSubtitle' data-aos="fade-in" >About Us</div>
                 <h1 className='pageTitle' data-aos="fade-left">Who We Are</h1>
                 <div className='text first' data-aos="fade-left">
-                  Genesis Employment Solutions is an HR Consulting firm that helps
-                  start ups outsource their HR functions and Hiring needs. We have a track record of supporting the Opencare HR team,
-                  as well as immigrants at a time where the business required external resources and expertise
+                  Genesis Employment Solutions is an HR consulting firm specializing in
+                  assisting startups in outsourcing their HR functions and hiring requirements.
+                  We have a track record in providing support to immigrants during times when businesses need external resources and expertise.
+
                 </div>
                 <div className='text' data-aos="fade-left">
                   We provides a comprehensive service that identifies the role requirements in the organization and designs the job description and skill requirements for that role. We work towards creating a positive work environment, fostering employee growth,

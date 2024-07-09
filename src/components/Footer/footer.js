@@ -5,11 +5,19 @@ import logo from '../../image/logo.png';
 import { FaEnvelope } from "react-icons/fa"
 import { BsTelephone } from "react-icons/bs";
 
-import "./footer.css";
+import "./footer.scss";
+import NewsLetter from './NewsLetters';
+
 
 function Footer() {
+
+
+
     return (
         <div className='footer-page'>
+            <div className='newsLetter'>
+                <NewsLetter />
+            </div>
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-3 col-md-6 col-sm-6'>

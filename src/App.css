@@ -215,3 +215,26 @@ h1{
     font-family: var(--textFamily);
     color: var(--blackColor)
 }
+
+.popupWebinarContainer{
+  position: fixed;
+  top: 500px;
+  background: var(--purpleColor);
+  font-family: var(--textFamily);
+  font-size: 12px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  z-index: 20;
+  display: block;
+  cursor:pointer;
+  box-shadow:#c4c4c4 1px 1px 5px 5px;
+  
+  color: #fff;
+  
+}
+.popupWebinarContainer button{
+  border: none;
+  background: none;
+  color: #fff;
+  text-transform: uppercase;
+}
